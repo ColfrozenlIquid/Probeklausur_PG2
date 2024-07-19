@@ -11,4 +11,7 @@ public:
     static DimmableLight* DimmableLightBuilder(nlohmann::json json_object);
 
     int currentPowerUsage();
+
+private:
+    static constexpr int m_wattage = 40;   //40 Watt
 };

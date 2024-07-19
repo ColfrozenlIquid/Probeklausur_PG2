@@ -21,6 +21,8 @@ public:
 
     void writeToFile(const std::string& filename);
 
+    void powerUsage();
+
 private:
     std::vector<Device*> m_devices;
 };

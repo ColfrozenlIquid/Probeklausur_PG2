@@ -10,4 +10,7 @@ public:
     static Thermostat *ThermostatBuilder(nlohmann::json json_object);
 
     int currentPowerUsage();
+
+private:
+    static constexpr int m_wattage = 10;   //10 Watt
 };

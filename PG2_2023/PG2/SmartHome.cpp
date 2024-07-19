@@ -1,5 +1,10 @@
 #include "SmartHome.hpp"
 
+#include "DimmableLight.hpp"
+#include "Display.hpp"
+#include "SimpleLight.hpp"
+#include "Thermostat.hpp"
+
 SmartHome::SmartHome() {}
 
 void SmartHome::registerDevice(Device* device) {
@@ -59,7 +64,6 @@ void SmartHome::readFromFile(const std::string &filename) {
     std::vector<Device*> devices;
 
     for (auto& device_object : json_object.at("Devices")) {
-        auto device = Device::deviceBuilder(device_object);
         devices.push_back(Device::deviceBuilder(device_object));
     }
 
@@ -97,4 +101,29 @@ void SmartHome::writeToFile(const std::string &filename) {
     output_filestream << json_object.dump(4);
 
     output_filestream.close();
+}
+
+void SmartHome::powerUsage() {
+    std::cout << "Power Usage: " << std::endl;
+    int lights_power = 0;
+    int displays_power = 0;
+    int thermostats_power = 0;
+
+    for (auto& device : m_devices) {
+        if (typeid(*device) == typeid(SimpleLight)) {
+            lights_power += device->currentPowerUsage();
+        }
+        if (typeid(*device) == typeid(DimmableLight)) {
+            lights_power += device->currentPowerUsage();
+        }
+        if (typeid(*device) == typeid(Display)) {
+            displays_power += device->currentPowerUsage();
+        }
+        if (typeid(*device) == typeid(Thermostat)) {
+            thermostats_power += device->currentPowerUsage();
+        }
+    }
+    std::cout << "\nLights: " << lights_power << std::endl;
+    std::cout << "Displays: " << displays_power << std::endl;
+    std::cout << "Thermostats: " << thermostats_power << std::endl;
 }

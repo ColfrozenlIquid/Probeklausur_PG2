@@ -4,7 +4,7 @@
 #include "Display.hpp"
 #include "Thermostat.hpp"
 
-Device::Device(const std::string& name, std::vector<Channel*> channels) : m_name(name) {
+Device::Device(const std::string& name, std::vector<Channel*> channels, int max_power_usage) : m_name(name), m_max_power_usage(max_power_usage) {
     m_channels.insert(m_channels.end(), channels.begin(), channels.end());
 }
 
@@ -99,4 +99,8 @@ Device* Device::deviceTypeFromJSON(nlohmann::json json_object) {
 
 void Device::addChannels(Channel* channel) {
     m_channels.push_back(channel);
+}
+
+bool Device::getActive() {
+    return m_active;
 }

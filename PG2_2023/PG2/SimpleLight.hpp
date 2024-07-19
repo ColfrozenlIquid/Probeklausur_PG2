@@ -10,4 +10,7 @@ public:
     static SimpleLight* SimpleLightBuilder(nlohmann::json json_object);
 
     int currentPowerUsage();
+
+private:
+    static constexpr int m_wattage = 30;   //30 Watt
 };

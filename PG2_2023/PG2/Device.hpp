@@ -9,7 +9,7 @@ class Device {
 public:
     Device() = delete;
 
-    Device(const std::string& name, std::vector<Channel*> channels);
+    Device(const std::string& name, std::vector<Channel*> channels, int max_power_usage);
 
     virtual ~Device() = default;
 
@@ -35,11 +35,13 @@ public:
 
     virtual int currentPowerUsage() = 0;
 
+    bool getActive();
+
 private:
     bool m_active;
     const std::string m_name;
     std::vector<Channel*> m_channels;
     int m_max_power_usage;
 
-    static Device *deviceTypeFromJSON(nlohmann::json json_object);
+    static Device* deviceTypeFromJSON(nlohmann::json json_object);
 };

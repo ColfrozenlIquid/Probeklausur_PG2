@@ -11,4 +11,6 @@ public:
 
     int currentPowerUsage();
 
+private:
+    static constexpr int m_wattage = 200;   //200 Watt
 };

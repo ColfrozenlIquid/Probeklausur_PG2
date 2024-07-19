@@ -10,6 +10,8 @@ int main() {
     smarthome.registerDevice(new Thermostat());
     smarthome.registerDevice(new Display());
 
+    smarthome.powerUsage();
+
     smarthome.writeToFile("../../smarthome.json");
 
     smarthome.readFromFile("../../smarthome.json");

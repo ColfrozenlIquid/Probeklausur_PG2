@@ -8,4 +8,9 @@ DimmableLight* DimmableLight::DimmableLightBuilder(nlohmann::json json_object) {
     return new DimmableLight(json_object.at("Type").get<std::string>(), Channel::channelVectorBuilder(json_object.at("Channels")));
 }
 
-int DimmableLight::currentPowerUsage() {}
+int DimmableLight::currentPowerUsage() {
+    if (this->getActive()) {
+        return m_wattage * std::stoi(this->getValue("brightness"))/100;
+    }
+    return 0;
+}
