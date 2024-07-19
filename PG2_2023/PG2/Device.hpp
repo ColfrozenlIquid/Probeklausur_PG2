@@ -41,5 +41,5 @@ private:
     std::vector<Channel*> m_channels;
     int m_max_power_usage;
 
-    Device* deviceTypeFromJSON(const std::string &device_type);
+    static Device *deviceTypeFromJSON(nlohmann::json json_object);
 };

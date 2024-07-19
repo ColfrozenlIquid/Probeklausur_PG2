@@ -1,6 +1,8 @@
 #include "Device.hpp"
 
 #include "DimmableLight.hpp"
+#include "Display.hpp"
+#include "Thermostat.hpp"
 
 Device::Device(const std::string& name, std::vector<Channel*> channels) : m_name(name) {
     m_channels.insert(m_channels.end(), channels.begin(), channels.end());
@@ -71,23 +73,28 @@ nlohmann::json Device::generateJSON() {
 }
 
 Device* Device::deviceBuilder(nlohmann::json json_object) {
-    std::vector<Channel*> channels;
-    for (auto& channel : json_object.at("Channels")) {
-        channels.push_back(Channel::channelBuilder(channel));
-    }
+    Device* device = deviceTypeFromJSON(json_object);
 
-    Device* device = new Device(
-        json_object.at("Type").get<std::string>(),
-        channels
-    );
     device->m_active = json_object.at("Active").get<bool>();
+
     return device;
 }
 
-Device* Device::deviceTypeFromJSON(const std::string& device_type){
-    if (device_type == "DimmableLight") {
-        return new DimmableLight();
+Device* Device::deviceTypeFromJSON(nlohmann::json json_object) {
+    if (json_object.at("Type") == "SimpleLight") {
+        return SimpleLight::SimpleLightBuilder(json_object);
     }
+    if (json_object.at("Type") == "DimmableLight") {
+        return DimmableLight::DimmableLightBuilder(json_object);
+    }
+    if (json_object.at("Type") == "Thermostat") {
+        return Thermostat::ThermostatBuilder(json_object);
+    }
+    if (json_object.at("Type") == "Display") {
+        return Display::DisplayBuilder(json_object);
+    }
+    std::cout << "This method shouldn't return a nullptr" << std::endl;
+    return nullptr;
 }
 
 void Device::addChannels(Channel* channel) {

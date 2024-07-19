@@ -6,5 +6,9 @@ class DimmableLight : public SimpleLight {
 public:
     DimmableLight();
 
+    DimmableLight(std::string name, std::vector<Channel *> channels);
+
+    static DimmableLight* DimmableLightBuilder(nlohmann::json json_object);
+
     int currentPowerUsage();
 };

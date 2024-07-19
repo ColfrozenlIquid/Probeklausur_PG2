@@ -7,5 +7,7 @@ public:
 
     SimpleLight(const std::string name, std::vector<Channel*> channels);
 
+    static SimpleLight* SimpleLightBuilder(nlohmann::json json_object);
+
     int currentPowerUsage();
 };

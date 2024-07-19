@@ -1,4 +1,5 @@
 #include "Channel.hpp"
+#include <iostream>
 
 Channel::Channel(const std::string &name, const std::string &value, ChannelMode mode) : m_name(name), m_value(value), m_mode(mode) {}
 
@@ -37,6 +38,18 @@ std::string Channel::ChannelModeToString(ChannelMode channel_mode) {
     }
 }
 
+std::vector<Channel*> Channel::channelVectorBuilder(nlohmann::json json_object) {
+    std::vector<Channel*> channels;
+    for (auto& channel : json_object) {
+        channels.push_back(new Channel(
+            channel.at("Name").get<std::string>(),
+            channel.at("Value").get<std::string>(),
+            Channel::stringToChannelMode(channel.at("Mode").get<std::string>())
+        ));
+    }
+    return channels;
+}
+
 Channel::ChannelMode Channel::stringToChannelMode(const std::string& channel_mode) {
     if (channel_mode == "READ") {
         return Channel::ChannelMode::READ;
@@ -48,12 +61,4 @@ Channel::ChannelMode Channel::stringToChannelMode(const std::string& channel_mod
         return Channel::ChannelMode::READWRITE;
     }
     return Channel::ChannelMode::READ;
-}
-
-Channel* Channel::channelBuilder(nlohmann::json json_object) {
-    return new Channel(
-        json_object.at("Name").get<std::string>(),
-        json_object.at("Value").get<std::string>(),
-        Channel::stringToChannelMode(json_object.at("Mode").get<std::string>())
-    );
 }

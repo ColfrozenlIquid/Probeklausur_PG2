@@ -53,10 +53,13 @@ void SmartHome::readFromFile(const std::string &filename) {
 
     input_filestream >> json_object;
 
+    input_filestream.close();
+
     //Loop through devices
     std::vector<Device*> devices;
 
     for (auto& device_object : json_object.at("Devices")) {
+        auto device = Device::deviceBuilder(device_object);
         devices.push_back(Device::deviceBuilder(device_object));
     }
 

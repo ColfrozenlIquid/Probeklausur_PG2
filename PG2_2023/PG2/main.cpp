@@ -12,5 +12,7 @@ int main() {
 
     smarthome.writeToFile("../../smarthome.json");
 
+    smarthome.readFromFile("../../smarthome.json");
+
     return 0;
 }

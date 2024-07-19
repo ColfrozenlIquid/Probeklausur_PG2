@@ -28,7 +28,8 @@ public:
 
     std::string ChannelModeToString(ChannelMode channel_mode);
 
-    static Channel* channelBuilder(nlohmann::json json_object);
+    static std::vector<Channel*> channelVectorBuilder(nlohmann::json json_object);
+
 private:
     const std::string m_name;
     std::string m_value;
