@@ -1,0 +1,752 @@
+{
+  "person": [
+    {
+      "Alter": 52,
+      "Gehalt": 1500,
+      "Name": "Nina",
+      "Title": "Manager",
+      "Type": "Employee",
+      "UID": "e_1"
+    },
+    {
+      "Alter": 39,
+      "Gehalt": 1000,
+      "Name": "Grace",
+      "Title": "Personal Trainer",
+      "Type": "Employee",
+      "UID": "e_2"
+    },
+    {
+      "Alter": 41,
+      "Gehalt": 1000,
+      "Name": "Paul",
+      "Title": "Personal Trainer",
+      "Type": "Employee",
+      "UID": "e_3"
+    },
+    {
+      "Alter": 55,
+      "Gehalt": 450,
+      "Name": "Tina",
+      "Title": "Trainee",
+      "Type": "Employee",
+      "UID": "e_4"
+    },
+    {
+      "Alter": 53,
+      "Gehalt": 450,
+      "Name": "Quincy",
+      "Title": "Trainee",
+      "Type": "Employee",
+      "UID": "e_5"
+    },
+    {
+      "Alter": 28,
+      "Gehalt": 450,
+      "Name": "Xander",
+      "Title": "Trainee",
+      "Type": "Employee",
+      "UID": "e_6"
+    },
+    {
+      "Alter": 31,
+      "Mitgliedsbeitrag": 60,
+      "Name": "David",
+      "Type": "Customer",
+      "UID": "c_7"
+    },
+    {
+      "Alter": 75,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Xander",
+      "Type": "Customer",
+      "UID": "c_8"
+    },
+    {
+      "Alter": 33,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_9"
+    },
+    {
+      "Alter": 56,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Quincy",
+      "Type": "Customer",
+      "UID": "c_10"
+    },
+    {
+      "Alter": 14,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Alice",
+      "Type": "Customer",
+      "UID": "c_11"
+    },
+    {
+      "Alter": 39,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Uma",
+      "Type": "Customer",
+      "UID": "c_12"
+    },
+    {
+      "Alter": 21,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Uma",
+      "Type": "Customer",
+      "UID": "c_13"
+    },
+    {
+      "Alter": 43,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_14"
+    },
+    {
+      "Alter": 63,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Frank",
+      "Type": "Customer",
+      "UID": "c_15"
+    },
+    {
+      "Alter": 37,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Quincy",
+      "Type": "Customer",
+      "UID": "c_16"
+    },
+    {
+      "Alter": 25,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Will",
+      "Type": "Customer",
+      "UID": "c_17"
+    },
+    {
+      "Alter": 15,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_18"
+    },
+    {
+      "Alter": 61,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Ivan",
+      "Type": "Customer",
+      "UID": "c_19"
+    },
+    {
+      "Alter": 73,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Paul",
+      "Type": "Customer",
+      "UID": "c_20"
+    },
+    {
+      "Alter": 64,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Vera",
+      "Type": "Customer",
+      "UID": "c_21"
+    },
+    {
+      "Alter": 23,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Quincy",
+      "Type": "Customer",
+      "UID": "c_22"
+    },
+    {
+      "Alter": 74,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Will",
+      "Type": "Customer",
+      "UID": "c_23"
+    },
+    {
+      "Alter": 45,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_24"
+    },
+    {
+      "Alter": 14,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Rachel",
+      "Type": "Customer",
+      "UID": "c_25"
+    },
+    {
+      "Alter": 61,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Tina",
+      "Type": "Customer",
+      "UID": "c_26"
+    },
+    {
+      "Alter": 37,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Uma",
+      "Type": "Customer",
+      "UID": "c_27"
+    },
+    {
+      "Alter": 79,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_28"
+    },
+    {
+      "Alter": 21,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_29"
+    },
+    {
+      "Alter": 18,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Frank",
+      "Type": "Customer",
+      "UID": "c_30"
+    },
+    {
+      "Alter": 17,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Ivan",
+      "Type": "Customer",
+      "UID": "c_31"
+    },
+    {
+      "Alter": 45,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Rachel",
+      "Type": "Customer",
+      "UID": "c_32"
+    },
+    {
+      "Alter": 72,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Jack",
+      "Type": "Customer",
+      "UID": "c_33"
+    },
+    {
+      "Alter": 60,
+      "Mitgliedsbeitrag": 60,
+      "Name": "David",
+      "Type": "Customer",
+      "UID": "c_34"
+    },
+    {
+      "Alter": 80,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Derek",
+      "Type": "Customer",
+      "UID": "c_35"
+    },
+    {
+      "Alter": 38,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Zane",
+      "Type": "Customer",
+      "UID": "c_36"
+    },
+    {
+      "Alter": 18,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Oscar",
+      "Type": "Customer",
+      "UID": "c_37"
+    },
+    {
+      "Alter": 24,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Xander",
+      "Type": "Customer",
+      "UID": "c_38"
+    },
+    {
+      "Alter": 29,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Paul",
+      "Type": "Customer",
+      "UID": "c_39"
+    },
+    {
+      "Alter": 29,
+      "Mitgliedsbeitrag": 60,
+      "Name": "David",
+      "Type": "Customer",
+      "UID": "c_40"
+    },
+    {
+      "Alter": 27,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_41"
+    },
+    {
+      "Alter": 70,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Sam",
+      "Type": "Customer",
+      "UID": "c_42"
+    },
+    {
+      "Alter": 11,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Grace",
+      "Type": "Customer",
+      "UID": "c_43"
+    },
+    {
+      "Alter": 13,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Jack",
+      "Type": "Customer",
+      "UID": "c_44"
+    },
+    {
+      "Alter": 60,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_45"
+    },
+    {
+      "Alter": 74,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Paul",
+      "Type": "Customer",
+      "UID": "c_46"
+    },
+    {
+      "Alter": 63,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Eva",
+      "Type": "Customer",
+      "UID": "c_47"
+    },
+    {
+      "Alter": 64,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Alice",
+      "Type": "Customer",
+      "UID": "c_48"
+    },
+    {
+      "Alter": 56,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Xander",
+      "Type": "Customer",
+      "UID": "c_49"
+    },
+    {
+      "Alter": 74,
+      "Mitgliedsbeitrag": 40,
+      "Name": "David",
+      "Type": "Customer",
+      "UID": "c_50"
+    },
+    {
+      "Alter": 30,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Tina",
+      "Type": "Customer",
+      "UID": "c_51"
+    },
+    {
+      "Alter": 76,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_52"
+    },
+    {
+      "Alter": 72,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_53"
+    },
+    {
+      "Alter": 78,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_54"
+    },
+    {
+      "Alter": 74,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Zane",
+      "Type": "Customer",
+      "UID": "c_55"
+    },
+    {
+      "Alter": 49,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_56"
+    },
+    {
+      "Alter": 35,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Liam",
+      "Type": "Customer",
+      "UID": "c_57"
+    },
+    {
+      "Alter": 51,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Charlie",
+      "Type": "Customer",
+      "UID": "c_58"
+    },
+    {
+      "Alter": 38,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Grace",
+      "Type": "Customer",
+      "UID": "c_59"
+    },
+    {
+      "Alter": 29,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Mona",
+      "Type": "Customer",
+      "UID": "c_60"
+    },
+    {
+      "Alter": 19,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_61"
+    },
+    {
+      "Alter": 32,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Charlie",
+      "Type": "Customer",
+      "UID": "c_62"
+    },
+    {
+      "Alter": 65,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Alice",
+      "Type": "Customer",
+      "UID": "c_63"
+    },
+    {
+      "Alter": 47,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_64"
+    },
+    {
+      "Alter": 37,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Alice",
+      "Type": "Customer",
+      "UID": "c_65"
+    },
+    {
+      "Alter": 29,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_66"
+    },
+    {
+      "Alter": 43,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_67"
+    },
+    {
+      "Alter": 22,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Karen",
+      "Type": "Customer",
+      "UID": "c_68"
+    },
+    {
+      "Alter": 59,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Zane",
+      "Type": "Customer",
+      "UID": "c_69"
+    },
+    {
+      "Alter": 30,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Zane",
+      "Type": "Customer",
+      "UID": "c_70"
+    },
+    {
+      "Alter": 34,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Hannah",
+      "Type": "Customer",
+      "UID": "c_71"
+    },
+    {
+      "Alter": 63,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Will",
+      "Type": "Customer",
+      "UID": "c_72"
+    },
+    {
+      "Alter": 48,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Xander",
+      "Type": "Customer",
+      "UID": "c_73"
+    },
+    {
+      "Alter": 80,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Ivan",
+      "Type": "Customer",
+      "UID": "c_74"
+    },
+    {
+      "Alter": 24,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Elena",
+      "Type": "Customer",
+      "UID": "c_75"
+    },
+    {
+      "Alter": 60,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_76"
+    },
+    {
+      "Alter": 79,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Quincy",
+      "Type": "Customer",
+      "UID": "c_77"
+    },
+    {
+      "Alter": 20,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Derek",
+      "Type": "Customer",
+      "UID": "c_78"
+    },
+    {
+      "Alter": 46,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Fiona",
+      "Type": "Customer",
+      "UID": "c_79"
+    },
+    {
+      "Alter": 18,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Quincy",
+      "Type": "Customer",
+      "UID": "c_80"
+    },
+    {
+      "Alter": 68,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Liam",
+      "Type": "Customer",
+      "UID": "c_81"
+    },
+    {
+      "Alter": 15,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Karen",
+      "Type": "Customer",
+      "UID": "c_82"
+    },
+    {
+      "Alter": 13,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Paul",
+      "Type": "Customer",
+      "UID": "c_83"
+    },
+    {
+      "Alter": 75,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Rachel",
+      "Type": "Customer",
+      "UID": "c_84"
+    },
+    {
+      "Alter": 21,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Will",
+      "Type": "Customer",
+      "UID": "c_85"
+    },
+    {
+      "Alter": 72,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Zane",
+      "Type": "Customer",
+      "UID": "c_86"
+    },
+    {
+      "Alter": 54,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Tina",
+      "Type": "Customer",
+      "UID": "c_87"
+    },
+    {
+      "Alter": 17,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Sam",
+      "Type": "Customer",
+      "UID": "c_88"
+    },
+    {
+      "Alter": 72,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_89"
+    },
+    {
+      "Alter": 71,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Oscar",
+      "Type": "Customer",
+      "UID": "c_90"
+    },
+    {
+      "Alter": 70,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Liam",
+      "Type": "Customer",
+      "UID": "c_91"
+    },
+    {
+      "Alter": 22,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Charlie",
+      "Type": "Customer",
+      "UID": "c_92"
+    },
+    {
+      "Alter": 54,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Alice",
+      "Type": "Customer",
+      "UID": "c_93"
+    },
+    {
+      "Alter": 42,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Uma",
+      "Type": "Customer",
+      "UID": "c_94"
+    },
+    {
+      "Alter": 23,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Sam",
+      "Type": "Customer",
+      "UID": "c_95"
+    },
+    {
+      "Alter": 67,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Xander",
+      "Type": "Customer",
+      "UID": "c_96"
+    },
+    {
+      "Alter": 26,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_97"
+    },
+    {
+      "Alter": 54,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Chloe",
+      "Type": "Customer",
+      "UID": "c_98"
+    },
+    {
+      "Alter": 71,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Elena",
+      "Type": "Customer",
+      "UID": "c_99"
+    },
+    {
+      "Alter": 34,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Mona",
+      "Type": "Customer",
+      "UID": "c_100"
+    },
+    {
+      "Alter": 60,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Nina",
+      "Type": "Customer",
+      "UID": "c_101"
+    },
+    {
+      "Alter": 41,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Bob",
+      "Type": "Customer",
+      "UID": "c_102"
+    },
+    {
+      "Alter": 66,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Liam",
+      "Type": "Customer",
+      "UID": "c_103"
+    },
+    {
+      "Alter": 22,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Paul",
+      "Type": "Customer",
+      "UID": "c_104"
+    },
+    {
+      "Alter": 69,
+      "Mitgliedsbeitrag": 40,
+      "Name": "Hannah",
+      "Type": "Customer",
+      "UID": "c_105"
+    },
+    {
+      "Alter": 33,
+      "Mitgliedsbeitrag": 60,
+      "Name": "Elena",
+      "Type": "Customer",
+      "UID": "c_106"
+    }
+  ]
+}

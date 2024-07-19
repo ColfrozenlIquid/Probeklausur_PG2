@@ -1,0 +1,58 @@
+{
+    "Devices": [
+        {
+            "Active": true,
+            "Channels": [
+                {
+                    "Mode": "READWRITE",
+                    "Name": "color",
+                    "Value": "white"
+                },
+                {
+                    "Mode": "READWRITE",
+                    "Name": "brightness",
+                    "Value": "100"
+                }
+            ],
+            "Type": "DimmableLight"
+        },
+        {
+            "Active": true,
+            "Channels": [
+                {
+                    "Mode": "READWRITE",
+                    "Name": "color",
+                    "Value": "white"
+                }
+            ],
+            "Type": "SimpleLight"
+        },
+        {
+            "Active": true,
+            "Channels": [
+                {
+                    "Mode": "READ",
+                    "Name": "temperature",
+                    "Value": "19"
+                },
+                {
+                    "Mode": "READWRITE",
+                    "Name": "targetTemperature",
+                    "Value": "22"
+                }
+            ],
+            "Type": "Thermostat"
+        },
+        {
+            "Active": true,
+            "Channels": [
+                {
+                    "Mode": "WRITE",
+                    "Name": "text",
+                    "Value": ""
+                }
+            ],
+            "Type": "Display"
+        }
+    ]
+}
